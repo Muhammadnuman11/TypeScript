@@ -48,3 +48,12 @@ function greet(name: string): string {
 
 greet("Alice"); // Valid
 // greet(123); // Error: Argument of type 'number' is not assignable to parameter of type 'string'.
+
+// !------ Unknown type annotation -------!
+
+// Unknown prefered than any. Unkown almost like any but it is more type safe.
+
+
+// Unknown type annotation in TypeScript is a type-safe counterpart of the any type. It represents a value that could be of any type, but unlike any, it requires explicit type checking before performing operations on it. This helps prevent runtime errors by enforcing type safety. 
+
+let unknownValue: unknown = "This could be anything";
